@@ -19,12 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
 }
 body {
 	line-height: 1;
@@ -49,43 +44,173 @@ table {
     height: 100%;
     margin: 0 auto;
 }
-.menu{
+.header {
     width: 100%;
-    height: 119px;
-    background-color: #AEC8C9;
+    height: 105px;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #A9AAAF;
     position: fixed;
+    align-items: center;
+    line-height: 1.1;
+    z-index: 9999;
 }
-.menu ul{
-    display: flex;
+.logo {
+	margin-left: 20px;
+	display: flex;
+	flex: none;
+	align-items: center;
+}
+.logo-pic,
+.name {
+	display: block;
+}
+.logo-pic {
+	width: 60px;
+    height: 60px;
+    margin: 0 24px 0 22px;
+}
+.logo-pic img{
     width: 100%;
     height: 100%;
-    align-items: center;
-    line-height: 2;
 }
-.menu li{
-    flex: 1;
-    vertical-align: middle;
+.name {
+    width: 235px;
+    height: 100%;
+    line-height: 1.4;
+    font-size: 1.2rem;
 }
-.menu li:first-child{
-    flex: 4;
-    margin-left: 100px;
+.nav {
+	display: -webkit-flex;
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
 }
-.schedule{
-
+.nav a {
+	background: #222;
+	width: 130px; 
+	height: 50px;
+	font-size: 1.5rem;
+	color: #eee;
+	text-decoration: none;
+	margin: 5px 0 0 5px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.slider{
+.menu{
     width: 100%;
-    height: 557px;
+    height: 789px;
+    background-image:url(../img/blue-schnee-sky.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color: #3B7BB9;
 }
-.contant{
-
+.languages{
+    color: white;
+    font-size: 1.5rem;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    height: 357px;
+    width: 620px;
+    justify-content: center;
+    align-items: center;
+    padding: 194px 157px;
+}
+.languages div{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 151px;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    margin: 26px;
+}
+.languages div img{
+    width: 100%;
+    height: auto;
+}
+.responce-botton{
+    width: 298px;
+    height: 74px;
+    color: white;
+    font-size: 1.2rem;
+    margin: -105px 38px 27px 314px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studyng-forms{
+    display: flex;
+    width: 100%;
+    height: 684px;
+    background-color: #DAE6E6;
+}
+.content{
+    flex: auto;
+    margin: 99px 153px;
+    box-sizing: border-box;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 84px 250px;
+} 
+.top-line{
+    font-size: 1.5rem;
+    color: rgb(70, 23, 9);
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+.grid-itm{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.grid-img{
+    width: 215px;
+    height: 215px;
+    margin: 0 auto 20px;
+    flex: 0 1 80%;
+    grid-row: 2;
+}
+.grid-cont{
+    justify-self: end;
+    align-self: center;
+}
+.decor{
+    position: absolute;
+    width: 100%;
+    margin: 626px 0;
 }
 .features{
-
+    width: 100%;
+    height: 684px;
+    background-color: #AEC8C9;
 }
 .reviews{
-
+    width: 100%;
+    height: 684px;
+    background-color: #CECED2;
 }
 .footer{
-
+    width: 100%;
+    height: 685px;
+    background-image:url(../img/footer.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
