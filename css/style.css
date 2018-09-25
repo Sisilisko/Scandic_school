@@ -85,7 +85,7 @@ table {
     font-size: 1.9rem;
 }
 .name {
-    color: #222;
+    color: #333;
 }
 .nav {
 	display: -webkit-flex;
@@ -93,8 +93,8 @@ table {
     flex-wrap: wrap;
     margin-right: 20px;
 }
-.nav a {
-	background: #222;
+.nav a, .schedule{
+	background: #333;
 	width: 130px; 
 	height: 50px;
 	font-size: 1.5rem;
@@ -112,7 +112,7 @@ table {
     background-image:url(../img/blue-schnee-sky.jpg);
     background-repeat:no-repeat;
     background-position:center;
-    background-color: #3B7BB9;
+    background-color: rgb(59, 118, 185);
     font-family: 'Amatic SC', cursive;
     letter-spacing: 1.5px;
 }
@@ -163,6 +163,8 @@ table {
     width: 100%;
     height: 684px;
     background-color: #DAE6E6;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7rem;
 }
 .content{
     flex: auto;
@@ -174,17 +176,19 @@ table {
     grid-template-rows: 84px 250px;
 } 
 .top-line{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: rgb(70, 23, 9);
     display: flex;
     justify-content: center;
     align-self: start;
     grid-column: 1 / 4;
     grid-row: 1;
+    letter-spacing: 1.1px;
 }
 .grid-itm{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    letter-spacing: 1.1px;
 }
 .grid-img{
     width: 215px;
@@ -206,6 +210,15 @@ table {
     width: 100%;
     height: 684px;
     background-color: #AEC8C9;
+    display: flex;
+}
+.img-features{
+    height: 100%;
+}
+.pluses{
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.9rem;
 }
 .reviews{
     width: 100%;
@@ -224,6 +237,14 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.languages a{
+        text-decoration: none;
+        color: white;
+    }
 @media screen and (max-width:938px) {
     .header{
         height: 150px;
