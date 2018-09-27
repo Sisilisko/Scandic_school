@@ -245,7 +245,7 @@ table {
     font-size: 1.7rem;
     letter-spacing: 2.4px;
     line-height: 29px;
-    margin: 30px 89px auto auto;
+    margin: 30px auto auto auto;
 }
 .reviews{
     width: 100%;
@@ -259,6 +259,20 @@ table {
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.links{
+    color: white;
+    font-size: 2rem;
+    width: 231px;
+    font-family: 'Amatic SC', cursive;
+    margin: 50px 0 0 50px;
+}
+.vk{
+    width: fit-content;
+    margin: 33px 46px;
 }
 a{
     text-decoration: none;
@@ -272,6 +286,12 @@ a:hover {
         text-decoration: none;
         color: white;
     }
+.links a{
+    color: #DAE6E6;
+}
+.links a:hover{
+    color: white;
+}
 @media screen and (max-width:938px) {
     .header{
         height: 150px;
