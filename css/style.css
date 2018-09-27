@@ -281,33 +281,38 @@ table {
     margin: 50px 0 0 50px;
 }
 .connects{
-    background-image:url(../img/connects.png);
     width: 272px;
     height: 53px;
     margin: 20px 48px;
+    display: flex;
 } 
 .fb{
-    display: block;
-    height: 100%;
+    background-image: url(../img/connects.png);
+    height: 53px;
     width: 52px;
+    display: block;
 }
 .vk {
-    display: block;
-    height: 100%;
+    background-image: url(../img/connects.png);
+    height: 53px;
     width: 77px;
-    margin-left: 65px;
-}
-.skype{
     display: block;
-    height: 100%;
-    width: 57px;
-    margin-right: 77px;
+    background-position-x: -65px;
+    background-position-y: 3px;
 }
-.telegram{
-    display: block;
-    height: 100%;
+.skype {
+    background-image: url(../img/connects.png);
+    height: 53px;
     width: 57px;
-    margin-right: 0px;
+    display: block;
+    background-position-x: -152px;
+}
+.telegram {
+    background-image: url(../img/connects.png);
+    height: 53px;
+    width: 52px;
+    display: block;
+    background-position-x: -220px;
 }
 a{
     text-decoration: none;
