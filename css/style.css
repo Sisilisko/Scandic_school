@@ -272,6 +272,13 @@ table {
     margin-left: 15px;
     flex-wrap: nowrap;
 }
+.col-4{
+    display: block;
+    text-align: center;
+}
+.col-1{
+    padding-top: 140px;
+}
 .photo{
     background-color: #DAE6E6;
     border: 1px solid #9A9D9E;
@@ -337,9 +344,9 @@ table {
     background-position-x: -220px;
 }
 .col_back{
-    width: 330px;
-    padding-top: 50px;
-    margin-left: 798px;
+    width: 312px;
+    padding-top: 48px;
+    margin-left: 750px;
     font-family: 'Amatic SC', cursive;
     font-size: 1.7rem;
     color: white;
