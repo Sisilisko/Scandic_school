@@ -128,7 +128,7 @@ table {
     padding: 196px 100px 0 101px;
     text-align: center;
 }
-.languages div{
+.languages>div{
     display: -webkit-inline-flex;
     display: inline-flex;
     width: 151px;
@@ -141,6 +141,86 @@ table {
     width: 100%;
     height: auto;
     padding-bottom: 9px;
+}
+.island-flag{
+    background-image: url(../img/island-flag-hover.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.island-flag:hover{
+    background-image: url(../img/island-flag.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.norway-flag{
+    background-image: url(../img/norway-flag-hover.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.norway-flag:hover{
+    background-image: url(../img/norway-flag.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.swiden-flag{
+    background-image: url(../img/swiden-flag-hover.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.swiden-flag:hover{
+    background-image: url(../img/swiden-flag.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.denmark-flag{
+    background-image: url(../img/denmark-flag-hover.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.denmark-flag:hover{
+    background-image: url(../img/denmark-flag.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.suomi-flag{
+    background-image: url(../img/suomi-flag-hover.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.suomi-flag:hover{
+    background-image: url(../img/suomi-flag.png);
+    width: 150px;
+    height: 103px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 .responce-botton{
     width: 298px;
