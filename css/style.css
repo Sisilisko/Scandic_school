@@ -39,7 +39,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.container-fluid{
+.container-f{
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -47,17 +47,16 @@ table {
 .head {
     width: 100%;
     height: 105px;
-	display: -webkit-flex;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
     box-sizing: border-box;
     background-color: #A9AAAF;
     position: fixed;
     align-items: center;
     line-height: 1.1;
-    z-index: 9999;
+    z-index: 1;
     font-family: 'Amatic SC', cursive;
+    margin-top: -105px;
 }
 .logo {
 	margin-left: 20px;
@@ -79,12 +78,7 @@ table {
     height: 100%;
 }
 .name {
-    width: 235px;
-    height: 100%;
-    line-height: 1.1;
     font-size: 1.9rem;
-}
-.name {
     color: #333;
 }
 .nav {
@@ -108,24 +102,26 @@ table {
 }
 .slider{
     width: 100%;
-    height: 789px;
+    height: 667px;
     background-image:url(../img/blue-schnee-sky.jpg);
+    background-position-y: -87px;
     background-repeat:no-repeat;
-    background-position:center;
+    background-position: center;
     background-color: rgb(59, 118, 185);
     font-family: 'Amatic SC', cursive;
     letter-spacing: 1.5px;
     background-size: cover;
+    margin-top: 105px;
 }
 .languages{
     color: white;
     font-size: 1.5rem;
-    height: 357px;
+    height: 521px;
     width: 842px;
     justify-content: center;
     align-items: center;
     line-height: 27px;
-    padding: 196px 100px 0 101px;
+    padding: 60px 100px 0 101px;
     text-align: center;
 }
 .languages>div{
@@ -222,12 +218,10 @@ table {
     background-size: cover;
     margin-bottom: 10px;
 }
-.responce-botton{
+.responce-button{
     width: 298px;
     height: 74px;
     color: white;
-    font-size: 1.2rem;
-    margin: -105px 38px 27px 314px;
     text-align: center;
     border-radius: 50px;
     border: 2px solid white;
@@ -237,7 +231,12 @@ table {
     font-size: 1.7rem;
     letter-spacing: 2.4px;
     line-height: 29px;
-    margin: 296px 103px 0 276px;
+    margin-left: 273px;
+}
+.but-resp{
+    background: none;
+    border: none;
+    color: white;
 }
 .studyng-forms{
     display: flex;
@@ -285,7 +284,10 @@ table {
 .decor{
     position: absolute;
     width: 100%;
-    margin: 626px 0;
+    margin: 613px 0;
+    font-family: rune;
+    font-size: 2.5rem;
+    white-space: nowrap;
 }
 .features{
     width: 100%;
@@ -301,9 +303,8 @@ table {
     font-family: 'Amatic SC', cursive;
     font-size: 1.9rem;
     flex-wrap: wrap;
-    display: grid;
-    margin: 67px 85px 90px 85px;
-    grid-row-gap: 1rem;
+    padding: 69px 85px 90px 85px;
+    line-height: 79px;
 }
 .row:first-child {
     text-align: center;
@@ -335,7 +336,7 @@ table {
     justify-content: center;
 }
 .students-rev{
-    padding: 100px 200px;
+    padding: 35px 179px;
     font-family: 'Amatic SC', cursive;
     font-size: 1.7rem;
     justify-content: center;
@@ -358,6 +359,7 @@ table {
 }
 .col-1{
     padding-top: 140px;
+    padding-left: 39px;
 }
 .photo{
     background-color: #DAE6E6;
@@ -366,6 +368,8 @@ table {
     padding: 20px;
     font-size: 1.5rem;
     justify-content: center;
+    position: absolute;
+    height: 528px;
 }
 .photo img{
     padding-bottom: 20px;
@@ -379,8 +383,7 @@ table {
     background-position:center;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .links{
     color: white;
@@ -392,9 +395,9 @@ table {
 .connects{
     width: 272px;
     height: 53px;
-    margin: 20px 48px;
+    margin: 27px 48px;
     display: flex;
-} 
+}
 .fb{
     background-image: url(../img/connects.png);
     height: 53px;
@@ -423,13 +426,16 @@ table {
     display: block;
     background-position-x: -220px;
 }
+.fb, .vk, .skype{
+    margin-right: 12px;
+}
 .col_back{
     width: 312px;
     padding-top: 48px;
-    margin-left: 750px;
     font-family: 'Amatic SC', cursive;
     font-size: 1.7rem;
     color: white;
+    margin-right: 30px;
 }
 .form-group input {
     background: rgba(255,255,255,0.5);
@@ -452,12 +458,13 @@ table {
     margin: 30px auto auto auto;
 }
 .rights{
-    margin-top: 634px;
     font-size: 1.3rem;
     font-family: 'Amatic SC', cursive;
     color: white;
     width: 133px;
-    margin-left: -166px;
+    position: absolute;
+    margin-top: 126px;
+    margin-left: 178px;
 }
 a{
     text-decoration: none;
@@ -488,4 +495,8 @@ a:hover {
     .logo{
         margin: 0;
     }
+}
+@font-face {
+    font-family: rune;
+    src: url("../fonts/rune.ttf");
 }
