@@ -216,7 +216,7 @@ table {
 .responce-button{
     width: 298px;
     height: 74px;
-    color: white;
+    color:white !important;
     text-align: center;
     border-radius: 50px;
     border: 2px solid white;
@@ -227,6 +227,8 @@ table {
     letter-spacing: 2.4px;
     line-height: 29px;
     margin-left: 273px;
+    background-image: none;
+    background: transparent;
 }
 .but-resp{
     background: none;
