@@ -72,6 +72,22 @@ table {
     width: 100%;
     height: 100%;
 }
+.logo-pic img:hover{
+    animation-name: spin;
+    animation-duration: 3400ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ 
+    z-index: 100;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 .name {
     font-size: 1.9rem;
     color: #333;
@@ -132,6 +148,9 @@ table {
     width: 100%;
     height: auto;
     padding-bottom: 9px;
+}
+.languages>div:hover{
+    transform: scale(1.1);
 }
 .island-flag{
     background-image: url(../img/island-flag-hover.png);
@@ -230,10 +249,7 @@ table {
     background-image: none;
     background: transparent;
 }
-.but-resp{
-    background: none;
-    border: none;
-    color: white;
+.responce-button:hover{
 }
 .studyng-forms{
     display: flex;
@@ -245,12 +261,13 @@ table {
 }
 .content{
     flex: auto;
-    margin: 99px 153px;
+    padding: 99px 153px;
     box-sizing: border-box;
     width: 85%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 84px 250px;
+    grid-column-gap: 74px;
 } 
 .top-line{
     font-size: 1.9rem;
@@ -526,6 +543,9 @@ td div{
     vertical-align: middle;
     display: inherit;
     vertical-align: middle;
+}
+td div:hover{
+    transform: scale(1.1);
 }
 .button-back {
     font-family: 'Amatic SC';
