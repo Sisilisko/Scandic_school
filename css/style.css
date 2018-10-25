@@ -586,3 +586,32 @@ td div:hover{
     font-family: rune;
     src: url("../fonts/rune.ttf");
 }
+.advantage-sum-school{
+    width: 100%;
+    height: 350px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 1.5px;
+    padding: 33px 80px 90px 80px;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title-sum-school{
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #491B1B;
+    margin-top: 105px;
+    padding-top: 69px;
+    font-family: 'Amatic SC', cursive;
+}
+.ss-img{
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #ECEEEE;
+    height: 140px;
+    width: 140px;
+    border-radius: 50px;
+}
