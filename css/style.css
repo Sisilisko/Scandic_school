@@ -588,14 +588,15 @@ td div:hover{
 }
 .advantage-sum-school{
     width: 100%;
-    height: 350px;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 1.5px;
-    padding: 33px 80px 90px 80px;
     display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-top: 40px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    padding-bottom: 35px;
 }
 .title-sum-school{
     width: 100%;
@@ -603,15 +604,59 @@ td div:hover{
     font-size: 2.2rem;
     color: #491B1B;
     margin-top: 105px;
-    padding-top: 69px;
+    padding-top: 48px;
     font-family: 'Amatic SC', cursive;
 }
-.ss-img{
-    padding-right: 15px;
+.adv-ss{
+    padding-right: 24px;
     padding-bottom: 15px;
-    padding-top: 15px;
+}
+.ss-img{
     background-color: #ECEEEE;
     height: 140px;
     width: 140px;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adv-ss-text{
+    font-weight: normal;
+    padding-right: 120px;
+}
+.finnish-ss{
+    height: 604px;
+    width: 100%;
+}
+.Sity-name{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.3rem;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: #491B1B;
+}
+.Finnish-picture{
+    background-image: url(../img/helsinki.png);
+    height: 604px;
+    width: 354px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.tags{
+    bottom: 100px;
+    background-color: #FFFFFF;
+    font-family: 'Amatic SC', cursive;
+    position: absolute;
+    left: 9px;
+    width: 334px;
+    height: 70px;
+    font-size: 1.4rem;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 22px;
+}
+.tags-name{
+    font-weight: normal;
+    width: 119px;
+    line-height: 28px;
 }
