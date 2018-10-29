@@ -668,5 +668,22 @@ td div:hover{
     width: 100%;
     height: 517px;
     position: absolute;
-    display: block;
+    display: flex;
+}
+.vertical-part-flag{
+    background-color: #EBF2FF;
+    width: 392px;
+    height: 517px;
+}
+.gorizon-part-flag-1{
+    background-color: #EBF2FF;
+    width: 1300px;
+    height: 159px;
+    margin-top: 183px;
+}
+.gorizon-part-flag-2{
+    background-color: #EBF2FF;
+    width: 100%;
+    height: 159px;
+    margin-top: 183px;
 }
