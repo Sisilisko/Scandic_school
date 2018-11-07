@@ -306,17 +306,21 @@ table {
     height: 684px;
     background-color: #AEC8C9;
     display: flex;
+    position: relative;
 }
 .img-features{
     height: 100%;
+    position: absolute;
 }
 .pluses{
-    width: 100%;
+    width: 815px;
     font-family: 'Amatic SC', cursive;
     font-size: 1.9rem;
-    flex-wrap: wrap;
-    padding: 69px 85px 90px 85px;
+    flex-wrap: nowrap;
+    padding: 69px 45px 90px 45px;
     line-height: 79px;
+    position: absolute;
+    right: 30px;
 }
 .row:first-child {
     text-align: center;
@@ -329,7 +333,6 @@ table {
     width: 298px;
     height: 74px;
     color: white;
-    font-size: 1.2rem;
     text-align: center;
     border-radius: 50px;
     border: 2px solid white;
@@ -578,6 +581,11 @@ td div:hover{
     }
     .logo{
         margin: 0;
+    }
+}
+@media screen and (max-width:1570px) {
+    .decor{
+        display: none;
     }
 }
 @font-face {
